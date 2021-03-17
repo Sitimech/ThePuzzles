@@ -1,0 +1,17 @@
+.game{
+  width:600px;
+  height:600px;
+  border:1px solid black;
+  position: relative;
+}
+.area{
+box-sizing:border-box;
+width:150px;
+height:150px;
+border:2px solid black;
+font-size: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+}
