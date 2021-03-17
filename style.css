@@ -1,17 +1,26 @@
 .game{
-  width:600px;
-  height:600px;
-  border:1px solid black;
-  position: relative;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
 }
+
 .area{
-box-sizing:border-box;
-width:150px;
-height:150px;
-border:2px solid black;
-font-size: 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-position: absolute;
+    box-sizing: border-box;
+    width: 150px;
+    height: 150px;
+    border: 3px solid green;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Verdana';
+    cursor: pointer;
+    color: black;
+    background-color: greenyellow;
 }
